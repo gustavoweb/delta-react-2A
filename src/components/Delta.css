@@ -1,0 +1,61 @@
+@keyframes fundo{
+    0% {background-color: #fe1ffb;}
+    100% {background-color: #00b3ff;}
+}
+
+body{
+    animation: fundo 5s linear 2s infinite alternate;
+}
+main{
+    width: 65%;
+    height: 70vh;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-top: 15vh;
+    margin-left: 17.5%;
+    padding: 5%;
+}
+main input{
+    width: 100%;
+    height: 6vh;
+    margin-top: 2vh;
+    border: 0;
+    border-radius: 10px;
+    text-align: center;
+}
+main button{
+    width: 100%;
+    height: 8vh;
+    border: 0;
+    background-color: #000;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 2vh;
+    font-size: 1.4em;
+    transition: all 1s;
+}
+main button:hover{
+    border: 1px solid #fff;
+    box-shadow: 0 0 5px #fff;
+    background-color: transparent;
+}
+main h3{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#fff;
+    text-align: center;
+    margin-top: 4vh;
+}
+main h1{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#fff;
+    text-align: center;
+    margin-top: 4vh;
+}
